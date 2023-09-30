@@ -1,4 +1,11 @@
-# Description:
+# Bayesian mechanistic modelling of scRNAseq data using Stan 
+
+### Requirements:
+* Julia (recommended), including [JSON.jl](https://github.com/JuliaIO/JSON.jl), [ArgParse.jl](https://github.com/carlobaldassi/ArgParse.jl)
+* Python (recommended) 
+* [CmdStan](https://mc-stan.org/users/interfaces/cmdstan), or any other [Stan](https://mc-stan.org/) interface
+
+## Description:
 
 The folder `stan` contains the following models:
 * `tg_zi_single`: Telegraph model, with zero inflation, single allele
